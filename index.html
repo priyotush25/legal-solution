@@ -32,7 +32,7 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header class="container mx-auto mt-12">
+    <header class="container mx-auto mt-12 p-4">
       <!-- Navbar -->
       <nav class="flex items-center justify-between">
         <div class="flex items-center justify-start mx-0 text-[#414040]">
@@ -40,7 +40,7 @@
         </div>
 
         <ul
-          class="flex items-center space-x-7 text-base text-[#707070] font-medium"
+          class="hidden md:flex items-center space-x-7 text-base text-[#707070] font-medium"
         >
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
@@ -57,11 +57,13 @@
 
       <!-- Hero Section -->
       <div
-        class="relative mt-14 text-center border px-60 py-52 bg-[url('./images/banner.png')] bg-no-repeat bg-center bg-cover rounded-xl overflow-hidden"
+        class="relative mt-14 text-center border px-5 py-32 lg:px-60 lg:py-52 bg-[url('./images/banner.png')] bg-no-repeat bg-center bg-cover rounded-xl overflow-hidden"
       >
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="z-10 relative mx-auto box-border">
-          <h1 class="text-7xl font-extrabold text-white font-garamond mb-6">
+          <h1
+            class="text-4xl lg:text-7xl font-extrabold text-white font-garamond mb-6"
+          >
             We Provide Effective Legal Solutions
           </h1>
           <p
@@ -75,7 +77,7 @@
             <input
               type="text"
               placeholder="Search your services"
-              class="py-4 rounded-lg pl-5 pr-80 mr-6"
+              class="py-4 rounded-lg pl-5 lg:pr-80 mr-6"
             />
             <button
               class="bg-[#B68C5A] text-lg font-semibold text-white px-8 py-4 rounded-xl"
